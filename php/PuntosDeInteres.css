@@ -1,0 +1,118 @@
+/* Establecer un color de fondo global */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Un color de fondo suave */
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #333; /* Un color oscuro para el encabezado */
+    color: #fff; /* Texto blanco para contraste */
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Estilos generales para los títulos y párrafos */
+h1, h2 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Estilos para los puntos de interés */
+.interest-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+/* Asegurar que las imágenes se ajusten al contenedor y no desborden */
+.interest-item {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff; /* Fondo blanco para los elementos */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra para profundidad */
+    border-radius: 8px; /* Bordes redondeados */
+    max-width: 300px; /* Ajustar el tamaño máximo del contenedor */
+}
+
+.interest-item img {
+    width: 100%; /* Asegura que la imagen llene el ancho del contenedor */
+    height: auto; /* Mantiene la relación de aspecto de la imagen */
+    display: block; /* Asegura que la imagen se comporte como un bloque */
+    border-radius: 8px; /* Bordes redondeados para las imágenes */
+    object-fit: cover; /* Asegura que la imagen cubra completamente el contenedor sin distorsionarse */
+    transition: transform 0.3s ease; /* Transición suave para las imágenes */
+}
+
+.interest-item img:hover {
+    transform: scale(1.05); /* Aumentar el tamaño de la imagen al pasar el cursor */
+}
+
+.interest-item h2 {
+    color: #333; /* Texto oscuro para los títulos */
+    margin-top: 10px;
+}
+
+.interest-item p {
+    margin-top: 10px;
+}
+
+/* Media Queries para dispositivos móviles */
+@media only screen and (max-width: 768px) {
+    .interest-section {
+        flex-direction: column;
+    }
+    .interest-item {
+        flex: 1 0 100%;
+        margin: 10px 0;
+    }
+}
+
+/* Patrones de fondo y gradientes */
+.pattern-background {
+    background-image: url('Tilburg_kerk.jpg');
+    background-repeat: repeat;
+}
+
+.gradient-background {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+}
+
+/* Mejoras en la legibilidad y la experiencia del usuario */
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff7e5f;
+}
+
+/* Optimización de rendimiento para dispositivos móviles */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Asegurar que los botones sean visibles y accesibles */
+button, .button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover, .button:hover {
+    background-color: #444;
+}
