@@ -49,7 +49,7 @@
             </div>
             <div class="imagen">
                 <img src="../public/project.jpg" alt="Imagen 4" class = "foto" id="project">
-                <h3>Out project</h3>
+                <h3>Our project</h3>
             </div>
         </div>
     </div>
