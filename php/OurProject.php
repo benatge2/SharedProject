@@ -18,20 +18,11 @@
     <main>
         <section class="interest-section">
             <div class="interest-item">
-                <img src="../public/Tilburg_kerk.jpg" alt="Tilburg Castle">
-                <h2>Tilburg Castle</h2>
-                <p>This medieval castle is one of the most emblematic monuments of the city, offering a glimpse into the rich history of Tilburg.</p>
+                <img src="../public/project.jpg" alt="Tilburg Castle">
+                <h2></h2>
+                <p>We are currently engaged in an internationalism project with an institute based in the Netherlands. The main goal of this project is to collaboratively create a website that showcases information about each other's country. Through this initiative, we aim to explore the possibilities and challenges of remote work and cooperation across borders. By designing and developing this website together, we seek to foster cultural exchange, promote mutual understanding, and evaluate the effectiveness of working remotely with a team located in a different country. This project not only allows us to share knowledge and perspectives but also highlights the significance of cross-cultural communication and collaboration in today's interconnected world.</p>
             </div>
-            <div class="interest-item">
-                <img src="../public/MuseoTilburg.jpg" alt="Tilburg Museum">
-                <h2>Tilburg Museum</h2>
-                <p>This museum houses a collection of modern and contemporary art, including works by artists such as Picasso and Van Gogh. It's a must-visit for art enthusiasts and history buffs alike.</p>
-            </div>
-            <div class="interest-item">
-                <img src="../public/DierenparkDeOliemeulen.jpg" alt="Oliemeulen Zoo and Theme Park">
-                <h2>Oliemeulen Zoo and Theme Park</h2>
-                <p>The Oliemeulen Zoo and Theme Park offers a unique experience for visitors, with a wide variety of animals and attractions. It's known for its collection of exotic animals, including a two-headed snake, an owl, a gecko, and a miniature horse. The park also features a nursery with various small animals and demonstrations with snakes and tarantulas, making it a fascinating destination for families and wildlife enthusiasts.</p>
-            </div>
+           
         </section>
     </main>
 <?php
