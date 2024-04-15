@@ -1,11 +1,11 @@
 .footer {
     background-color: #333; /* Color de fondo del footer */
     text-align: center; /* Alineación del texto */
-    padding: 10px; /* Espaciado interno para separar el contenido del borde */
+    padding: 10px 0; /* Espaciado interno para separar el contenido del borde */
     position: fixed; /* Fija el footer en la parte inferior de la pantalla */
     left: 0; /* Alinear a la izquierda */
     bottom: 0; /* Alinear en la parte inferior */
-    width: 100%; /* Ancho completo del viewport */
+    width: 100%; /* Ancho completo del viewport */  
 }
 
 .footer i {
