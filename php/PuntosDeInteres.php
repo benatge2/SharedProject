@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Puntos de Interés en Tilburg</title>
+    <title>Points of Interest in Tilburg</title>
     <link rel="stylesheet" href="../views/PuntosDeInteres.css">
     <link rel="stylesheet" href="../views/header.css">
     <link rel="stylesheet" href="../views/footer.css">
@@ -13,24 +13,24 @@
         require_once("../Views/header.php");
     ?>
     <header>
-        <h1>Puntos de Interés en Tilburg</h1>
+        <h1>Points of Interest in Tilburg</h1>
     </header>
     <main>
         <section class="interest-section">
             <div class="interest-item">
-                <img src="../public/Tilburg_kerk.jpg" alt="Castillo de Tilburg">
-                <h2>Castillo de Tilburg</h2>
-                <p>Este castillo medieval es uno de los monumentos más emblemáticos de la ciudad.</p>
+                <img src="../public/Tilburg_kerk.jpg" alt="Tilburg Castle">
+                <h2>Tilburg Castle</h2>
+                <p>This medieval castle is one of the most emblematic monuments of the city, offering a glimpse into the rich history of Tilburg.</p>
             </div>
             <div class="interest-item">
-                <img src="../public/MuseoTilburg.jpg" alt="Museo de Tilburg">
-                <h2>Museo de Tilburg</h2>
-                <p>Este museo alberga una colección de arte moderno y contemporáneo, incluyendo obras de artistas como Picasso y Van Gogh.</p>
+                <img src="../public/MuseoTilburg.jpg" alt="Tilburg Museum">
+                <h2>Tilburg Museum</h2>
+                <p>This museum houses a collection of modern and contemporary art, including works by artists such as Picasso and Van Gogh. It's a must-visit for art enthusiasts and history buffs alike.</p>
             </div>
             <div class="interest-item">
-                <img src="../public/DierenparkDeOliemeulen.jpg" alt="Dierenpark de Oliemeulen">
-                <h2>Dierenpark de Oliemeulen</h2>
-                <p>El Dierenpark de Oliemeulen es un zoológico y parque temático que ofrece una experiencia única para los visitantes, con una amplia variedad de animales y atracciones.</p>
+                <img src="../public/DierenparkDeOliemeulen.jpg" alt="Oliemeulen Zoo and Theme Park">
+                <h2>Oliemeulen Zoo and Theme Park</h2>
+                <p>The Oliemeulen Zoo and Theme Park offers a unique experience for visitors, with a wide variety of animals and attractions. It's known for its collection of exotic animals, including a two-headed snake, an owl, a gecko, and a miniature horse. The park also features a nursery with various small animals and demonstrations with snakes and tarantulas, making it a fascinating destination for families and wildlife enthusiasts.</p>
             </div>
         </section>
     </main>
