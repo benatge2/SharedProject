@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin:0;
+}
+.principal{
+    position: relative;
+}
+
+.tilburImg{
+    background-size: cover; /* Ajusta la imagen para cubrir todo el div */
+    background-position: 10% 25%; /* Coordenadas de la imagen en el div */
+}
+
+.rocImg {
+    position: absolute;
+    top: 0px; /* Ajusta la posición vertical */
+    left: 0px;
+    background-size: cover; /* Ajusta la imagen para cubrir todo el div */
+    background-position: 10% 25%; /* Coordenadas de la imagen en el div */
+}
