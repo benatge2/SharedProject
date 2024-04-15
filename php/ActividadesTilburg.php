@@ -23,19 +23,19 @@
                 <p>Tilburg is renowned for its vibrant sports culture, with hockey on the grass being a beloved activity among locals. The city's parks and open spaces are often filled with people enjoying this traditional Dutch sport.</p>
             </div>
             <div class="interest-item">
-                <img src="../public/MuseoTilburg.jpg" alt="Tilburg Museum">
-                <h2>Cultural Events</h2>
-                <p>Tilburg is a hub for cultural events, hosting a variety of festivals, art exhibitions, and classical concerts throughout the year. These events are a fantastic way for locals and visitors alike to immerse themselves in the arts and experience live performances.</p>
+                <img src="../public/CarnavalTilburgo.jpg" alt="Tilburg Museum">
+                <h2>Carnival of Tilburg</h2>
+                <p>The Carnival of Tilburg is one of the most important cultural events of the year, transforming the city into a festive atmosphere for five days. It's a chance to enjoy music, dance, and fun in a vibrant environment filled with color and joy.</p>
             </div>
             <div class="interest-item">
-                <img src="../public/DierenparkDeOliemeulen.jpg" alt="Oliemeulen Zoo and Theme Park">
+                <img src="../public/AmapolasTilburgo.jpg" alt="Oliemeulen Zoo and Theme Park">
                 <h2>Family Outings</h2>
                 <p>Family outings are a common activity in Tilburg, with the Oliemeulen Zoo and Theme Park being a popular destination. The park offers a variety of activities for families, including animal feeding sessions, educational programs, and thrilling rides.</p>
             </div>
             <div class="interest-item">
-                <img src="../public/Tilburg_Market.jpg" alt="Tilburg Market">
-                <h2>Market Visits</h2>
-                <p>Tilburg's weekly markets are a must-visit for locals and tourists alike. Here, you can find a wide range of products, from fresh produce and local cheeses to unique handcrafted items. It's a great way to experience the local culture and cuisine.</p>
+                <img src="../public/BookFair.jpg" alt="Tilburg Market">
+                <h2>Book Fair</h2>
+                <p>Held in October, the Book Fair is an opportunity to meet authors, listen to talks and readings by Dutch and international writers. It's an event that encourages reading and literary culture.</p>
             </div>
         </section>
     </main>
