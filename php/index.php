@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="\Clase\Holanda\SharedProject\Views\header.css">
-    <link rel="stylesheet" href="\Clase\Holanda\SharedProject\Views\footer.css">
+    <link rel="stylesheet" href="..\Views\header.css">
+    <link rel="stylesheet" href="..\Views\footer.css">
     <script src="https://kit.fontawesome.com/0c3005efe7.js" crossorigin="anonymous"></script>
     <title>ROC-TILBURG</title>
 </head>
