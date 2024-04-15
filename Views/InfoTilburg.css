@@ -1,0 +1,147 @@
+/* Establecer un color de fondo global */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Un color de fondo suave */
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #333; /* Un color oscuro para el encabezado */
+    color: #fff; /* Texto blanco para contraste */
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Estilos generales para los títulos y párrafos */
+h1, h2 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Estilos para los puntos de interés */
+.about-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+/* Asegurar que las imágenes se ajusten al contenedor y no desborden */
+.about-item {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff; /* Fondo blanco para los elementos */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra para profundidad */
+    border-radius: 8px; /* Bordes redondeados */
+    max-width: 300px; /* Ajustar el tamaño máximo del contenedor */
+    text-align: justify; /* Justificar el texto */
+}
+
+.about-item img {
+    width: 100%; /* Asegura que la imagen llene el ancho del contenedor */
+    height: auto; /* Mantiene la relación de aspecto de la imagen */
+    display: block; /* Asegura que la imagen se comporte como un bloque */
+    border-radius: 8px; /* Bordes redondeados para las imágenes */
+    object-fit: cover; /* Asegura que la imagen cubra completamente el contenedor sin distorsionarse */
+    transition: transform 0.3s ease; /* Transición suave para las imágenes */
+}
+
+.about-item img:hover {
+    transform: scale(1.05); /* Aumentar el tamaño de la imagen al pasar el cursor */
+}
+
+.about-item h2 {
+    color: #333; /* Texto oscuro para los títulos */
+    margin-top: 10px;
+}
+
+.about-item p {
+    text-align: justify; /* Justificar el texto */
+    margin: 0 auto; /* Centrar el párrafo horizontalmente */
+    max-width: 90%; /* Limitar el ancho del párrafo para evitar que se extienda demasiado */
+}
+
+/* Media Queries para dispositivos móviles */
+@media only screen and (max-width: 768px) {
+    .about-section {
+        flex-direction: column;
+    }
+    .about-item {
+        flex: 1 0 100%;
+        margin: 10px 0;
+    }
+}
+
+/* Patrones de fondo y gradientes */
+.pattern-background {
+    background-image: url('Tilburg_background.jpg');
+    background-repeat: repeat;
+}
+
+.gradient-background {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+}
+
+/* Mejoras en la legibilidad y la experiencia del usuario */
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff7e5f;
+}
+
+/* Optimización de rendimiento para dispositivos móviles */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Asegurar que los botones sean visibles y accesibles */
+button, .button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover, .button:hover {
+    background-color: #444;
+}
+/* Staircase Effect */
+.staircase-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px; /* Adjust as needed */
+}
+
+
+.staircase-step {
+    margin-left: 20px; /* Adjust this value to control the step size */
+}
+
+/* Adjusted for the geography image to be larger */
+.staircase-step img.geography {
+    width: 200px; /* Increase the width to make the image larger */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: Add rounded corners to images */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: Add shadow for depth */
+}
+
+/* Ensure other images maintain their original size */
+.staircase-step img:not(.geography) {
+    width: 300px; /* Adjust the width as needed */
+    height: auto;
+}
